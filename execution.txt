@@ -1,0 +1,33 @@
+1 ?- ancestor(Who,jaher).
+Who = alicia ;
+Who = juan ;
+Who = ezequiel ;
+Who = marta ;
+Who = oscar ;
+Who = matilde ;
+Who = charles ;
+Who = verona ;
+Who = david ;
+Who = ana ;
+false.
+
+2 ?- sibling(Who,jaher).
+Who = stuart ;
+Who = stuart ;
+false.
+
+3 ?- food_friend(jaher,Who).
+Who = verona ;
+Who = david.
+
+4 ?- factorial(6,F).
+F = 720 .
+
+5 ?- sum_list([2,4,6,8],S).
+S = 20.
+
+6 ?- list_length([a,b,c,d],L).
+L = 4.
+
+7 ?- append_list([1,2],[3,4],R).
+R = [1, 2, 3, 4].
