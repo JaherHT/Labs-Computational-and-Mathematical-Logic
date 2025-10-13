@@ -1,0 +1,12 @@
+1 ?- path(a, c).
+true .
+
+2 ?- path(b, a).
+false.
+
+3 ?- all_paths(Paths).
+Paths = [[a, b, c], [a, d, c]].
+
+4 ?- maze_path(Path).
+Path = [start, r1, r2, r3, exit] ;
+Path = [start, r1, r2, r4, exit] .
